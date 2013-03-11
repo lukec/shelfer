@@ -14,6 +14,7 @@ GetOptions( \%p,
     'smudge|s=s',
 ) or usage();
 
+
 $p{smudge} //= 1.417;
 $p{output} //= 'shelf.svg';
 
@@ -37,6 +38,8 @@ my $y = $svg->group(
 
 my $inches_to_dpi = sub { $_[0] * 90 };
 my $material_thickness = 19.5;
+
+$p{$_} *= 90 for qw/width height depth/;
 
 #     25.4mm, but gap is 26.2 = 0.8mm -> 0.4mm tweak
 #    +----+
@@ -114,6 +117,7 @@ my $points = $svg->get_path(
 );
 $y->polygon(%$points);
 
+# XXX make this red
 my $half_way = $p{width} / 2;
 my @shelf_hole_points = (
     [ $half_way - ($material_thickness / 2), $p{depth} / 3 ], # 1
