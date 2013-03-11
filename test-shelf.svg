@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="80cm" width="100cm" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title >I am a shelf</title>
+	<g id="group_y" style="fill: none; stroke: black">
+		<polygon points="10,10 10,-8.5 9.583,-8.5 9.583,11 13.417,11 13.417,-8.5 13,-8.5 13,10 10,10 " />
+		<polygon points="23,10 23,-8.5 22.583,-8.5 22.583,11 26.417,11 26.417,-8.5 26,-8.5 26,10 23,10 " />
+		<polygon points="36,10 36,-8.5 35.583,-8.5 35.583,11 39.417,11 39.417,-8.5 39,-8.5 39,10 36,10 " />
+		<polygon points="10,21 13,21 13,22 -6.5,22 -6.5,23 13,23 13,24 10,24 10,23 29.5,23 29.5,22 10,22 10,21 " />
+		<polygon points="1.75,22 21.25,22 21.25,23 1.75,23 1.75,22 " />
+	</g>
+	<!-- 
+	Generated using the Perl SVG Module V2.54
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>
